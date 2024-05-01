@@ -2,7 +2,7 @@ Write codes in vscode
 
 ---------------------------------------------------------------------->>git status
 git add <file name> 	or	 
----------------------------------------------------------------------->>git add .
+---------------------------------------------------------------------->>git add .                     --->> //add" ".  //space b/w add and .
 
 ---------------------------------------------------------------------->>git commit -m "All work commited"
 
@@ -10,3 +10,10 @@ git push origin main 	or git push -u origin main
 
 
 best default --------------------------------------------------------->>git push
+
+
+                         -----xxx------
+
+
+undo commit ----->> git reset HEAD~1          (for committed reset undo)
+git reset <file name>                            (for staged)
