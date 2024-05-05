@@ -1,5 +1,7 @@
 class Solution {   //LEET CODE MAXSUM OF SUBARRAY
     public int maxSubArray(int[] nums) {
+        int maxSum = nums[0];
+        
         //int ms = Integer.MIN_VALUE; 
         //int cs = 0; 
         //int n = nums.length;            APNA COLLEGE CODE
@@ -14,7 +16,7 @@ class Solution {   //LEET CODE MAXSUM OF SUBARRAY
 
 
                                  //UPGRADED CODE!!
-        int maxSum = nums[0];
+        
         int currentSum = nums[0];
         
         for (int i = 1; i < nums.length; i++) {
