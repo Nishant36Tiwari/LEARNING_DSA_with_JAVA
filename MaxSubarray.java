@@ -14,7 +14,7 @@ class Solution {   //LEET CODE MAXSUM OF SUBARRAY
 
 
                                  //UPGRADED CODE!!
-        
+        int maxSum = nums[0];
         int currentSum = nums[0];
         
         for (int i = 1; i < nums.length; i++) {
