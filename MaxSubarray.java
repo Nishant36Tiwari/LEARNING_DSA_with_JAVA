@@ -1,6 +1,20 @@
-class Solution {
+class Solution {   //LEET CODE MAXSUM OF SUBARRAY
     public int maxSubArray(int[] nums) {
-                int maxSum = nums[0];
+        //int ms = Integer.MIN_VALUE; 
+        //int cs = 0; 
+        //int n = nums.length;            APNA COLLEGE CODE
+        //for(int i=0; i<n;i++ ){
+        //    cs =  cs+nums[i];
+        //    if (cs<0 ){
+        //        cs=0;
+        //    }
+        //    ms = Math.max(cs, ms);
+        //}
+        //return ms;
+
+
+                                 //UPGRADED CODE!!
+        int maxSum = nums[0];
         int currentSum = nums[0];
         
         for (int i = 1; i < nums.length; i++) {
@@ -9,11 +23,8 @@ class Solution {
         }
         
         return maxSum;
-
+        
     }
+    
 }
-public static void main(String[] args) {
-    MaxSubarraySum solution = new MaxSubarraySum();
-    int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4,6 };
-    System.out.println("Maximum subarray sum: " + solution.maxSubArray(nums));
-}
+ // just paste it in leet code
